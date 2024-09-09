@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="reactjavascript">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="qr-container">
+        <h2>QR Generator</h2>
+        <div class="qr-input">
+            <input type="text" id="qr-link" placeholder="Enter your text" value="hello">
+            <button class="qr-btn">Generate</button>
+        </div>
+        <img class="qr-img" src="https://api.qrserver.com/v1/create-qr-code/?data=hello" alt="">
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
+<!--  -->
